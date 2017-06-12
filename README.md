@@ -1,2 +1,2 @@
 # ebay_scraper
-ebay Titles and Prices scraper script using python language.
+Simple python script to scrape the titles and prices of ebay website products
