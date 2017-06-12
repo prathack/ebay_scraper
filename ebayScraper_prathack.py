@@ -22,6 +22,8 @@ def startCrawl():
             prices = html.findAll('span',{'class':'bold'})
             for (i,j) in zip(titles,prices):
                 title,price = i.text,j.text
+                print(title)
+                print(price)
         except:
             pass
 def info():
